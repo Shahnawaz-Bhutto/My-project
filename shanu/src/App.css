@@ -1,42 +1,109 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+    /* ============================= */
+     /* FIRST HEADER SECTION STYLES */
+    /* ============================= */
+.firstheader{
+  width: 100%;
+  height: 13vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+.ecourses{
+  width: 20%;
+  height: 100%;
+  /* background-color: aqua; */
+}
+.ecourses h1{
   text-align: center;
+  padding-top: 25px;
+  font-size: 35px;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.ecourses h1::first-letter{
+  color: tomato;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.office{
+  width: 30%;
+  height: 100%;
+  /* background-color: lightgreen; */
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.office h3{
+  margin-left: 30px;
+  padding-top: 20px;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.office p{
+  margin-left: 30px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.gmail{
+  width: 20%;
+  height: 100%;
+  /* background-color: lightpink; */
 }
-
-.card {
-  padding: 2em;
+.gmail h3{
+  margin-left: 30px;
+  padding-top: 20px;
 }
-
-.read-the-docs {
-  color: #888;
+.gmail p{
+  margin-left: 30px;
+}
+.contact{
+  width: 25%;
+  height: 100%;
+  /* background-color: lightgray; */
+}
+.contact h3{
+  margin-left: 30px;
+  padding-top: 20px;
+}
+.contact p{
+  margin-left: 30px;
+}
+    /* ============================= */
+     /* SECOND HEADER SECTION STYLES */
+    /* ============================= */
+.secondheader{
+  width: 100%;
+  height: 10vh;
+  background-color: #ffffff;
+  display: flex;
+}
+.subject{
+  width: 30%;
+  height: 100%;
+  /* background-color: green; */
+}
+.subject h1{
+  text-align: center;
+  font-size: 35px;
+  padding-top: 15px;
+}
+.tags{
+  width: 70%;
+  height: 100%;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: space-between;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding-top: 25px; 
+}
+a:hover{
+  color: tomato;
+}
+button{
+  width: 120px;
+  height: 60%;
+  background-color: tomato;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-right: 30px;
+}
+button p{
+  font-size: 20px;
+}
+button:hover{
+  cursor: pointer;
+  background-color: red;
 }
