@@ -39,7 +39,15 @@ function App() {
         <button><p>joint us</p></button>
       </div>
       </div>
-      <div className="photo"></div>
+      <div className="photo">
+        <h2>Best Online Course</h2><br /><br />
+        <h1>Best Eduacation From </h1><br /><h3>Your Home</h3>
+        <br />
+        <button>Learn more</button>
+      </div>
+      {/* =====Header 2 End===== */}
+      {/* =====About section===== */}
+      <div className="about"></div>
     </>
   )
 }
