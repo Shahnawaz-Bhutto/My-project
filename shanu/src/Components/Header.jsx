@@ -29,23 +29,19 @@ function Header() {
           <h1>Subject</h1>
         </div>
         <div className="tags">
-          <a href="">Home</a>
-          <a href="">About</a>
-          <a href="">Courses</a>
-          <a href="">Developers</a>
-          <a href="">Blogs</a>
-          <a href="">Contact</a>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#Courses">Courses</a>
+          <a href="#Developers">Developers</a>
+          <a href="#Blogs">Blogs</a>
+          <a href="#Contact">Contact</a>
           <button><p>joint us</p></button>
         </div>
       </div>
-      <div className="photo">
-        <h2>Best Online Course</h2><br /><br />
-        <h1>Best Eduacation From </h1><br /><h3>Your Home</h3>
-        <br />
-        <button>Learn more</button>
-      </div>
       {/* =====Header 2 End===== */}
-      {/* =====About section===== */}
+     
+      
+    
     </div>
   )
 }
